@@ -19,7 +19,7 @@ export const HoverEffect = ({
   return (
     <div className={cn("grid grid-cols-2  lg:grid-cols-3  py-10", className)}>
       {items.map((item, idx) => {
-        const Icon = item.icon;
+        const Icon = item.Icon;
         return (
           <div
             key={idx}
@@ -47,7 +47,7 @@ export const HoverEffect = ({
             <div className="rounded-md w-full cursor-pointer p-4 overflow-hidden bg-black group-hover:ring-2 ring-green-500 relative z-20 transition-all duration-500">
               <div className="py-10 z-50 relative space-y-5">
                 <Icon className="w-8 h-8 mx-auto" />
-                <p className="text-2xl font-bold text-center text-gray-300">{item.text}</p>
+                <p className="text-2xl font-bold text-center text-gray-300">{item.title}</p>
               </div>
             </div>
           </div>

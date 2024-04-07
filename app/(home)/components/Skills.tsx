@@ -17,40 +17,40 @@ import {
 export default function Skills() {
   const skills = [
     {
-      text: "Javascript",
-      icon: SiJavascript,
+      title: "Javascript",
+      Icon: SiJavascript,
     },
     {
-      text: "React",
-      icon: SiReact,
+      title: "React",
+      Icon: SiReact,
     },
     {
-      text: "Typescript",
-      icon: SiTypescript,
+      title: "Typescript",
+      Icon: SiTypescript,
     },
     {
-      text: "Next.js",
-      icon: SiNextdotjs,
+      title: "Next.js",
+      Icon: SiNextdotjs,
     },
     {
-      text: "HTML5",
-      icon: SiHtml5,
+      title: "HTML5",
+      Icon: SiHtml5,
     },
     {
-      text: "CSS/Less/Scss",
-      icon: SiLess,
+      title: "CSS/Less/Scss",
+      Icon: SiLess,
     },
     {
-      text: "TailWind/Bootstrap",
-      icon: SiTailwindcss,
+      title: "TailWind/Bootstrap",
+      Icon: SiTailwindcss,
     },
     {
-      text: "Git",
-      icon: SiGit,
+      title: "Git",
+      Icon: SiGit,
     },
     {
-      text: "AEM",
-      icon: SiAdobe,
+      title: "AEM",
+      Icon: SiAdobe,
     },
   ];
   return (
