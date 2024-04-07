@@ -12,7 +12,7 @@ export default function HeroSection() {
           <span className="underline underline-offset-8 decoration-green-500">I&apos;m Annlyn</span>
         </h1>
         <p className="md:w-96 text-lg text-gray-300">
-          Base in Bengaluru, India, I&apos;m a passionate engineer trying to build kickass web
+          Based in Bengaluru, India 🌼 I&apos;m a passionate engineer trying to build kickass web
           applications that users love
         </p>
         <Link href={"mailto:annlynanto@gmail.com"} className="inline-block group">
@@ -32,9 +32,11 @@ export default function HeroSection() {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-left-10">
+          <a href="tel:+918129784886">
           <MovingBorderBtn borderRadius="0.5rem" className="p-3 font-semibold">
             <p>Available over a call 🚀</p>
           </MovingBorderBtn>
+          </a>
         </div>
       </section>
     </div>
