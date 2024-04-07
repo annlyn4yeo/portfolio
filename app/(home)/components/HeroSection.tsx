@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { MovingBorderBtn } from "./ui/moving-border.tsx";
-import Title from "./Title.tsx";
+import { MovingBorderBtn } from "./ui/moving-border";
+import Title from "./Title";
 
 export default function HeroSection() {
   return (
